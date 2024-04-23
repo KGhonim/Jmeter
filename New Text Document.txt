@@ -1,0 +1,6 @@
+jmeter -n -t D:\khaled\Performance\Sijil\Scripts\Sijil.jmx -l D:\khaled\Performance\Sijil\Execution-Log\result.jtl
+
+jmeter -n -t D:\khaled\Performance\Sijil\Scripts\Sijil.jmx -l D:\khaled\Performance\Sijil\Execution-Log\result.jtl -Jsystem.out=D:\khaled\Performance\Sijil\Output-log
+
+
+jmeter -g D:\khaled\Performance\Sijil\Execution-Log\result.jtl -o D:\khaled\Performance\Sijil\Html
